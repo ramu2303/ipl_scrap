@@ -21,6 +21,19 @@ function cb(err, res, html) {
 function allMatchPageCb(err, res, html) {
   if(err){
     console.log("Error!!!");
+    console.log("```````````````````````````````````");
+    console.log("```````````````````````````````````");
+    console.log("```````````````````````````````````");
+    console.log("```````````````````````````````````");
+    console.log("```````````````````````````````````");
+    console.log("```````````````````````````````````");
+        console.log("Error!!!");
+
+        console.log("Error!!!");
+
+        console.log("Error!!!");
+
+    
   }
   if (!err) {
     let $ = cheerio.load(html);
